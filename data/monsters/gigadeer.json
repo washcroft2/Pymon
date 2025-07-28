@@ -1,0 +1,12 @@
+{
+    "name": "Gigadeer",
+    "base_health": 50,
+    "base_attack": 15,
+    "base_defense": 10,
+    "attack_growth": 5,
+    "defense_growth": 3,
+    "health_growth": 5,
+    "abilities_at_level": {
+        "1": ["punch"]
+    }
+}

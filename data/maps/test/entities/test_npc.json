@@ -1,0 +1,29 @@
+{
+    "type": "npc",
+    "name": "Joe Biden",
+    "sprite_path": "player",
+    "position": {"x": 9, "y": 5},
+    "facing": "up",
+    "patrol_path": [
+        {"x": 9, "y" : 3},
+        {"x": 14, "y" : 3},
+        {"x": 14, "y" : 5},
+        {"x": 9, "y" : 5}
+    ],
+    "dialogue_flag": "default",
+    "dialogue": {
+        "default": [
+            {"text": "Hello, I am Joe Biden. How can I help you today?", "choices": [{"text":"", "flag":"default"}]},
+            {"text": "I am the President of the United States.", "choices": [{"text":"", "flag":"default"}]},
+            {"text": "Suck my balls?", "choices": [
+                {"text": "Yes", "flag": "suck_balls"},
+                { "text": "No", "flag": "default"}
+            ]}
+        ],
+        "suck_balls": [
+            {"text": "I don't think that's appropriate.", "choices": [{"text":"", "flag":"suck_balls"}]},
+            {"text": "Please, let's keep the conversation respectful.", "choices": [{"text":"", "flag":"suck_balls"}]},
+            {"text": "I am here to serve the people, not to engage in such talk.", "choices": [{"text":"", "flag":"default"}]}
+        ]
+    }
+}

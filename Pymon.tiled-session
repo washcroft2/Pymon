@@ -1,0 +1,99 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "data/tilesets/Forest.tsx",
+    "expandedProjectPaths": [
+        "data/maps/test/entities",
+        "data/tilesets",
+        "data/dialogue",
+        "data/maps/test",
+        "data/maps",
+        ".",
+        "data"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "data/maps/test.tmx": {
+            "expandedObjectLayers": [
+                6,
+                10,
+                8
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 284.5,
+                "y": 253.5
+            }
+        },
+        "data/maps/test/test.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 257.33333333333326,
+                "y": 284
+            }
+        },
+        "data/maps/test2.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 200,
+                "y": 160.16666666666666
+            }
+        },
+        "data/maps/tilesets/Forest.tsx": {
+            "scaleInDock": 1
+        },
+        "data/tilesets/Doors.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "data/tilesets/Forest.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
+        "data/tilesets/tall_grass.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Will/Documents/Pymon/data/tilesets",
+    "last.externalTilesetPath": "C:/Users/Maple/Desktop/Pymon/data/tilesets",
+    "last.imagePath": "C:/Users/Will/Documents/Pymon/gfx/tilesets",
+    "lastUsedTilesetExportFilter": "Tiled tileset files (*.tsx *.xml)",
+    "map.height": 15,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 15,
+    "openFiles": [
+        "data/maps/test/test.tmx",
+        "data/maps/test2.tmx",
+        "data/tilesets/Forest.tsx"
+    ],
+    "project": "Pymon.tiled-project",
+    "property.type": "int",
+    "recentFiles": [
+        "data/maps/test/test.tmx",
+        "data/maps/test2.tmx",
+        "data/tilesets/Forest.tsx",
+        "data/maps/test.tmx",
+        "data/tilesets/tall_grass.tsx",
+        "data/tilesets/Doors.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 16
+    }
+}

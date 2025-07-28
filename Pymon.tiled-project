@@ -1,0 +1,140 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 8,
+            "members": [
+                {
+                    "name": "facing",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "npc_name",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "patrol",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "NPC",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 7,
+            "members": [
+                {
+                    "name": "encounter_max_level",
+                    "type": "int",
+                    "value": 6
+                },
+                {
+                    "name": "encounter_min_level",
+                    "type": "int",
+                    "value": 3
+                },
+                {
+                    "name": "tall_grass_type",
+                    "type": "string",
+                    "value": "forest"
+                }
+            ],
+            "name": "PymonMap",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "project"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 1,
+            "members": [
+                {
+                    "name": "walkable",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "name": "PymonTile",
+            "type": "class",
+            "useAs": [
+                "property",
+                "tile",
+                "project"
+            ]
+        },
+        {
+            "color": "#ff567000",
+            "drawFill": true,
+            "id": 6,
+            "members": [
+            ],
+            "name": "TallGrass",
+            "type": "class",
+            "useAs": [
+                "property",
+                "object",
+                "project"
+            ]
+        },
+        {
+            "color": "#ff06e13d",
+            "drawFill": true,
+            "id": 2,
+            "members": [
+                {
+                    "name": "target_map",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "target_x",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "name": "target_y",
+                    "type": "int",
+                    "value": 0
+                }
+            ],
+            "name": "TeleportTile",
+            "type": "class",
+            "useAs": [
+                "property",
+                "object",
+                "project"
+            ]
+        }
+    ]
+}

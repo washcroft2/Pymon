@@ -1,0 +1,63 @@
+{
+    "default": {
+        "lines": [
+            {
+                "text": "Hello",
+                "choices": [],
+                "dialogue_flag": "default"
+            },
+            {
+                "text": "Can I have your rock?",
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "jump": 1
+                    },
+                    {
+                        "text": "No",
+                        "jump": 2
+                    }
+                ],
+                "dialogue_flag": "default"                
+            },
+            {
+                "text": "Thanks for the rock, nerd!",
+                "choices": [],
+                "dialogue_flag": "gave_rock"     
+            },
+            {
+                "text": "Kill yourself.",
+                "choices": [],
+                "dialogue_flag": "kept_rock"     
+            }
+        ]
+    },
+    "gave_rock": {
+        "lines":[
+            {
+                "text": "Thanks again for the rock, nerd!",
+                "choices": [],
+                "dialogue_flag": "gave_rock"
+            }
+        ]
+    },
+    "kept_rock": {
+        "lines":[
+            {
+                "text": "Changed your mind about that rock, have you?",
+                "choices": [],
+                "dialogue_flag": "kept_rock"
+            },
+            {
+                "text": "Most excellent. Mmmmmm yes...",
+                "choices": [],
+                "dialogue_flag": "gave_rock"
+            },
+            {
+                "text": "You'll come around soon my little snack.",
+                "choices": [],
+                "dialogue_flag": "kept_rock"
+            }
+        ]
+    }
+}
